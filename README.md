@@ -76,4 +76,4 @@ Ensuite, pour chaque $\Delta t \in [ {\frac{\Delta_{max}}{2^{n}}, n \in [1,9]}$]
 
 
 
-Incoming : Malliavin Calculus
+Incoming : **Malliavin Calculus**
