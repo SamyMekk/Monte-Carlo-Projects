@@ -4,7 +4,6 @@ Repo contenant le projet effectué dans le cadre du cours de Monte-Carlo for Fin
 Nous avons étudié l'article suivant : **"Strong convergence of the symmetrized
 Milstein scheme for some CEV-like SDEs"** via l'introduction du schéma **"Symmetrized Milstein Scheme"** et nous avons étudié ses propriétés de convergence théorique (ordre de convergence) et les cadres d'utilisation de ces résultats. Nous avons également implémenté les différents résultats de l'article sur l'étude des ordres de convergence du schéma SMS et de quelques autres schémas classiques pour l'étude des diffusions CEV comme celui introduit par Aurélien Alfonsi (**Alfonsi Implicit Scheme**).
 
-Lien vers le rapport : https://raw.githubusercontent.com/SamyMekk/Monte-Carlo-Projects/main/Projet%20Milstein/Projet_MC-M2MO.pdf
 
 <h1> <center >Etude des solutions des EDS de type CEV qui ont la forme suivante : </center> </h1>
 
