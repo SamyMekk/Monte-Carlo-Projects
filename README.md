@@ -55,7 +55,7 @@ Dans le cadre du projet, on va comme dans l'article supposer que la fonction "dr
 
 Nous allons nous intéresser à l'implémentation numérique des différents schémas numériques dans le cadre premièrement : $\alpha >0.5$ où nous étudierons les schémas $SMS$ et $SES$ et leurs ordres de convergence dans différentes configurations sur le choix du rapport $\frac{b_{0}}{\sigma^{2}}$ par rapport à  une fonction de $\alpha$ puis dans le cas $\alpha=0.5$ où nous étudierons les schémas $SMS$, $SES$ et $AIS$ où les conditions de convergence ne sont pas les mêmes que dans le cas $\alpha > 0.5$.
 
-Pour le calcul des ordres de convergence, on va chercher à estimer la norme $L^{1}$ associée à chaque schéma constituant l'erreur forte. En notant $F_{T}=|X_{T}-|$ classiquement avec $\hat{X}$ issue du schéma de discrétisation et $X_{T}$ la vraie solution, on veut donc estimateur $E[F_{T}]$ pour chacun des schémas introduits.
+Pour le calcul des ordres de convergence, on va chercher à estimer la norme $L^{1}$ associée à chaque schéma constituant l'erreur forte. En notant $F_{T}=|X_{T}-\hat{X_{T}}|$ classiquement avec $\hat{X}$ issue du schéma de discrétisation et $X_{T}$ la vraie solution, on veut donc estimateur $E[F_{T}]$ pour chacun des schémas introduits.
 
 
 - Comme il n'y a pas de solution explicite pour les différents schémas que l'on étudie, on va se donner dans le cas $\alpha=\frac{1}{2}$ comme solution de référence $X_{T}$ issue d'un schéma $AIS$ approximé avec un pas de temps de $\Delta t=\frac{\Delta_{max}}{2^{9}}$ (pour accélérer le temps d'éxécution)
