@@ -53,9 +53,9 @@ On définit alors le processus $X_{t}=Y_{t}^{2}$, bien défini par la condition 
 
 Dans le cadre du projet, on va comme dans l'article supposer que la fonction "drift" est linéaire donnée par : $b(x)=10-10x$. On va également considérer un horizon temporel $T=1$ et $x_{0}=1$
 
-Nous allons nous intéresser à l'implémentation numérique des différents schémas numériques dans le cadre premièrement : $\alpha >0.5$ où nous étudierons les schémas $SMS$ et $SES$ et leurs ordres de convergence dans différentes configurations sur le choix du rapport $\frac{b_{0}}{\sigma^{2}}$ par rapport à  une fonction de $\alpha$ puis dans le cas $\alpha=0.5$ où nous étudierons les schémas $SMS$,$SES$ et $AIS$ où les conditions de convergence ne sont pas les mêmes que dans le cas $\alpha > 0.5$.
+Nous allons nous intéresser à l'implémentation numérique des différents schémas numériques dans le cadre premièrement : $\alpha >0.5$ où nous étudierons les schémas $SMS$ et $SES$ et leurs ordres de convergence dans différentes configurations sur le choix du rapport $\frac{b_{0}}{\sigma^{2}}$ par rapport à  une fonction de $\alpha$ puis dans le cas $\alpha=0.5$ où nous étudierons les schémas $SMS$, $SES$ et $AIS$ où les conditions de convergence ne sont pas les mêmes que dans le cas $\alpha > 0.5$.
 
-Pour le calcul des ordres de convergence, on va chercher à estimer la norme $L^{1}$ associée à chaque schéma constituant l'erreur forte. En notant $F_{T}=|X_{T}-\hat{X}_{T}|$ classiquement avec $\hat{X}_{T}$ issue du schéma de discrétisation et $X_{T}$ la vraie solution, on veut donc estimateur $E[F_{T}]$ pour chacun des schémas introduits.
+Pour le calcul des ordres de convergence, on va chercher à estimer la norme $L^{1}$ associée à chaque schéma constituant l'erreur forte. En notant $F_{T}=|X_{T}-\hat_{X}_{T}|$ classiquement avec $\hat{X}_{T}$ issue du schéma de discrétisation et $X_{T}$ la vraie solution, on veut donc estimateur $E[F_{T}]$ pour chacun des schémas introduits.
 
 
 - Comme il n'y a pas de solution explicite pour les différents schémas que l'on étudie, on va se donner dans le cas $\alpha=\frac{1}{2}$ comme solution de référence $X_{T}$ issue d'un schéma $AIS$ approximé avec un pas de temps de $\Delta t=\frac{\Delta_{max}}{2^{9}}$ (pour accélérer le temps d'éxécution)
